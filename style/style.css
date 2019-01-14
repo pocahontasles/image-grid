@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+body *{
+  box-sizing: border-box;
+}
+ img{
+   width: auto;
+   max-width: 100%;
+ }
+.cell{
+  float: left;
+  padding: 0 10px 10px 10px;
+  margin: 0;
+}
+.wrapper{
+ width: 1200px;
+  margin: 0 auto;
+}
+.row {
+overflow: hidden;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+.cell.size-50{
+width: 50%;
+}
+.cell.size-33{
+  width: 33.3%;
+}
+.cell.size-16 {
+  width: 16.6%;
+}
+
+
